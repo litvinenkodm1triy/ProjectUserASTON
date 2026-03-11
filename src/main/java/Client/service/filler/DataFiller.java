@@ -1,4 +1,10 @@
 package Client.service.filler;
 
-public class DataFiller {
+import Client.model.User;
+import java.util.List;
+
+public interface DataFiller {
+
+    List<User> fill(int size);
+
 }
